@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студия шугаринга Юлия — гладкая кожа надолго</title>
+  <meta name="description" content="Студия шугаринга Юлия. Профессиональная сахарная эпиляция: ноги, руки, бикини. Стерильно, безопасно, с заботой о вас.">
+  <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48Y2lyY2xlIGN4PSI1MCIgY3k9IjUwIiByPSI0NiIgZmlsbD0iI0M5NkY0QSIvPjx0ZXh0IHg9IjUwIiB5PSI3MCIgZm9udC1mYW1pbHk9Ikdlb3JnaWEsIFRpbWVzIE5ldyBSb21hbiwgc2VyaWYiIGZvbnQtc2l6ZT0iNjAiIGZvbnQtc3R5bGU9Iml0YWxpYyIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGQkYzRTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPtCuPC90ZXh0Pjwvc3ZnPg==">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#hero">Юлия</a>
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#services" class="nav__link">Услуги и цены</a>
+        <a href="#reviews" class="nav__link">Отзывы</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+        <a href="https://t.me/Yulia_Kisieva" class="btn btn--small">Записаться</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__text" data-stagger>
+          <h1 class="reveal">Гладкая кожа <em>надолго</em> —<br>без <span class="strike">боли</span> и <span class="strike">раздражения</span></h1>
+          <p class="hero__subtitle reveal">Сахарная эпиляция в студии Юлия: стерильные материалы, сертифицированный мастер и натуральная паста. Результат — до 4 недель гладкости.</p>
+          <div class="hero__actions reveal">
+            <a class="btn" href="https://t.me/Yulia_Kisieva">Записаться в Telegram</a>
+          </div>
+          <ul class="hero__points reveal">
+            <li>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              100% стерильность
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Натуральная паста
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Опыт мастера 7 лет
+            </li>
+          </ul>
+          <div class="hero__stats reveal">
+            <div class="hero__stat">
+              <p class="hero__stat-value">7 лет</p>
+              <p class="hero__stat-label">опыта мастера</p>
+            </div>
+            <div class="hero__stat">
+              <p class="hero__stat-value">3–4 недели</p>
+              <p class="hero__stat-label">гладкой кожи</p>
+            </div>
+            <div class="hero__stat">
+              <p class="hero__stat-value">100%</p>
+              <p class="hero__stat-label">стерильность</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal" style="--d: 450ms" aria-hidden="true">
+          <div class="hero__panel"></div>
+          <div class="hero__blob"></div>
+          <div class="polaroid">
+            <img class="polaroid__art" src="hero-legs.jpg" alt="Гладкие ноги после шугаринга" loading="eager" decoding="async">
+          </div>
+          <div class="glass-badge">
+            <p class="glass-badge__text"><strong>3–4 недели</strong>гладкой кожи</p>
+          </div>
+          <div class="hero-chip hero-chip--1">Без вросших волос</div>
+          <div class="hero-chip hero-chip--2">Подходит чувствительной коже</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span>Сахарная эпиляция</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>До 4 недель гладкости</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>100% стерильность</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Натуральная паста</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Опыт мастера 7 лет</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Без вросших волос</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+        </div>
+        <div class="marquee__group">
+          <span>Сахарная эпиляция</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>До 4 недель гладкости</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>100% стерильность</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Натуральная паста</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Опыт мастера 7 лет</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+          <span>Без вросших волос</span>
+          <svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.6L22 12l-7.6 2.4L12 22l-2.4-7.6L2 12l7.6-2.4z" fill="currentColor"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <p class="sticker sticker--pink reveal">Прайс</p>
+        <h2 class="reveal">Услуги и цены</h2>
+        <p class="section__subtitle reveal">Цены указаны за процедуру. При первом визите — консультация мастера в подарок.</p>
+        <div class="services__grid" data-stagger>
+          <article class="service-card service-card--featured reveal">
+            <span class="service-card__hit">Хит</span>
+            <p class="service-card__num" aria-hidden="true">01</p>
+            <h3>Глубокое бикини</h3>
+            <p class="service-card__desc">Полное удаление волос в зоне бикини. Деликатно, быстро и с максимальным комфортом — самая популярная процедура студии.</p>
+            <ul class="service-card__perks">
+              <li>100% стерильность</li>
+              <li>Консультация в подарок</li>
+              <li>До 4 недель гладкости</li>
+            </ul>
+            <p class="service-card__price">2 500 ₽</p>
+            <p class="service-card__time">≈ 40 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+          <article class="service-card service-card--yellow reveal">
+            <p class="service-card__num" aria-hidden="true">02</p>
+            <h3>Бикини классическое</h3>
+            <p class="service-card__desc">Аккуратная линия бикини по краю белья.</p>
+            <p class="service-card__price">1 500 ₽</p>
+            <p class="service-card__time">≈ 25 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+          <article class="service-card service-card--mint reveal">
+            <p class="service-card__num" aria-hidden="true">03</p>
+            <h3>Ноги полностью</h3>
+            <p class="service-card__desc">Голени и бёдра. Кожа гладкая и ухоженная надолго.</p>
+            <p class="service-card__price">2 000 ₽</p>
+            <p class="service-card__time">≈ 60 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+          <article class="service-card service-card--lavender reveal">
+            <p class="service-card__num" aria-hidden="true">04</p>
+            <h3>Голени</h3>
+            <p class="service-card__desc">Удаление волос ниже колена. Успеете в обеденный перерыв.</p>
+            <p class="service-card__price">1 000 ₽</p>
+            <p class="service-card__time">≈ 30 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+          <article class="service-card service-card--peach reveal">
+            <p class="service-card__num" aria-hidden="true">05</p>
+            <h3>Руки полностью</h3>
+            <p class="service-card__desc">От кистей до плеч. Мягкая паста не травмирует тонкую кожу.</p>
+            <p class="service-card__price">900 ₽</p>
+            <p class="service-card__time">≈ 30 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+          <article class="service-card service-card--blue reveal">
+            <p class="service-card__num" aria-hidden="true">06</p>
+            <h3>Подмышки</h3>
+            <p class="service-card__desc">Всего 10–15 минут, а результат держится до месяца.</p>
+            <p class="service-card__price">800 ₽</p>
+            <p class="service-card__time">≈ 15 минут</p>
+            <a class="btn btn--small" href="https://t.me/Yulia_Kisieva">Записаться</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section steps" id="steps">
+      <div class="container">
+        <p class="sticker sticker--lavender reveal">Как всё проходит</p>
+        <h2 class="reveal">Три шага до гладкой кожи</h2>
+        <div class="steps__grid" data-stagger>
+          <svg class="steps__trail" viewBox="0 0 1000 140" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="trailGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#B85C38"/>
+                <stop offset="1" stop-color="#E8A94C"/>
+              </linearGradient>
+            </defs>
+            <path class="steps__trail-path" pathLength="1" vector-effect="non-scaling-stroke"
+                  d="M -30 62 C 50 18, 100 22, 171 46 C 260 90, 340 100, 500 87 C 600 92, 700 80, 829 46 C 900 24, 950 30, 1030 58"/>
+          </svg>
+          <article class="step-card reveal">
+            <span class="step-card__drop" aria-hidden="true">01</span>
+            <h3>Запись</h3>
+            <p>Пишете в Telegram — за 15 минут подберём удобное время и ответим на вопросы.</p>
+          </article>
+          <article class="step-card step-card--offset reveal">
+            <span class="step-card__drop" aria-hidden="true">02</span>
+            <h3>Визит</h3>
+            <p>Консультация, стерильный кабинет и тёплая паста. Процедура занимает от 15 до 60 минут.</p>
+          </article>
+          <article class="step-card reveal">
+            <span class="step-card__drop" aria-hidden="true">03</span>
+            <h3>Результат</h3>
+            <p>Гладкая кожа на 3–4 недели. С каждым визитом волосы тоньше, а интервалы — длиннее.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="container container--narrow">
+        <p class="sticker reveal">Отзывы</p>
+        <h2 class="reveal">Что пишут клиенты</h2>
+        <!-- TODO: заменить тексты отзывов на реальные -->
+        <div class="chat">
+          <div class="chat__header">
+            <span class="chat__avatar" aria-hidden="true">С</span>
+            <div class="chat__meta">
+              <strong>Сахар — студия шугаринга</strong>
+              <span>online</span>
+            </div>
+          </div>
+          <div class="chat__body" data-stagger>
+            <div class="msg reveal">
+              <span class="msg__avatar" aria-hidden="true">А</span>
+              <div class="msg__bubble">
+                <p class="msg__name">Анна</p>
+                <p class="msg__text">Делала глубокое бикини у Юлии — быстро и почти безболезненно. Кабинет стерильный, всё при мне вскрыли. Уже записалась на следующий раз</p>
+                <span class="msg__time">12:41</span>
+              </div>
+            </div>
+            <div class="msg reveal">
+              <span class="msg__avatar" aria-hidden="true">М</span>
+              <div class="msg__bubble">
+                <p class="msg__name">Мария</p>
+                <p class="msg__text">Ноги полностью за час, кожа гладкая уже третью неделю. Раньше брилась через день, теперь забыла, где лежит бритва</p>
+                <span class="msg__time">13:15</span>
+              </div>
+            </div>
+            <div class="msg reveal">
+              <span class="msg__avatar" aria-hidden="true">Е</span>
+              <div class="msg__bubble">
+                <p class="msg__name">Екатерина</p>
+                <p class="msg__text">Боялась, что будет больно, но всё оказалось вполне терпимо. Юлия всё объяснила и постоянно спрашивала, как ощущения</p>
+                <span class="msg__time">18:02</span>
+              </div>
+            </div>
+            <div class="msg reveal">
+              <span class="msg__avatar" aria-hidden="true">О</span>
+              <div class="msg__bubble">
+                <p class="msg__name">Ольга</p>
+                <p class="msg__text">Подмышки за 10 минут в обеденный перерыв — это ли не счастье. Никакого раздражения, хотя кожа у меня чувствительная</p>
+                <span class="msg__time">12:05</span>
+              </div>
+            </div>
+            <div class="msg reveal">
+              <span class="msg__avatar" aria-hidden="true">Д</span>
+              <div class="msg__bubble">
+                <p class="msg__name">Дарья</p>
+                <p class="msg__text">Хожу к Юле уже полгода. Волосы стали заметно тоньше, а интервалы между визитами всё длиннее. Рекомендую всем подругам</p>
+                <span class="msg__time">20:47</span>
+              </div>
+            </div>
+            <div class="msg msg--out reveal">
+              <div class="msg__bubble">
+                <p class="msg__text">Спасибо за тёплые слова! Будем рады видеть вас снова.</p>
+                <span class="msg__time">15:02 <span class="msg__ticks" aria-hidden="true">✓✓</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__cta reveal">
+          <p>Хотите так же?</p>
+          <a class="btn" href="https://t.me/Yulia_Kisieva">Записаться в Telegram</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container container--narrow">
+        <p class="sticker reveal">Вопросы</p>
+        <h2 class="reveal">Частые вопросы</h2>
+        <div class="faq__list" data-stagger>
+          <div class="faq-item reveal">
+            <button class="faq-item__question" aria-expanded="false">
+              Это больно?
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Ощущения индивидуальны, но шугаринг переносится легче воска: паста снимается по направлению роста волос и не травмирует кожу. С каждой процедурой волосы становятся тоньше, а дискомфорт — меньше.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__question" aria-expanded="false">
+              Как подготовиться к процедуре?
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>За 2–3 дня сделайте лёгкий скраб, в день визита не наносите кремы и масла, приходите в свободной одежде. Длина волос — от 4–5 мм.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__question" aria-expanded="false">
+              Сколько держится эффект?
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>В среднем 3–4 недели. При регулярных процедурах волосы растут медленнее и становятся тоньше, а интервалы между визитами увеличиваются.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__question" aria-expanded="false">
+              Какой длины должны быть волосы?
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Оптимально 4–5 мм — это примерно две недели после бритья. Если волосы длиннее 8 мм, мастер аккуратно укоротит их перед процедурой.</p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-item__question" aria-expanded="false">
+              Какие есть противопоказания?
+              <span class="faq-item__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Повреждения и воспаления кожи в зоне процедуры, кожные заболевания в стадии обострения, сахарный диабет в стадии декомпенсации. При беременности и варикозе — предварительно проконсультируйтесь с врачом.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <p class="sticker sticker--pink reveal">Контакты</p>
+        <h2 class="reveal">Ждём вас в студии</h2>
+        <div class="contacts__grid">
+          <div class="contacts__info reveal">
+            <p class="contacts__row">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="2.2"/></svg>
+              <span><strong>Адрес:</strong> г. Владикавказ, ул. Зураба Магкаева, 75А, 2 этаж</span>
+            </p>
+            <p class="contacts__row">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M12 7v5l3.4 2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+              <span><strong>Часы работы:</strong> ежедневно с 10:00 до 20:00</span>
+            </p>
+            <p class="contacts__row">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+              <span><strong>Телефон:</strong> <a href="tel:+79888351112">+7 (988) 835-11-12</a></span>
+            </p>
+            <p class="contacts__row">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+              <span><strong>Запись:</strong> в Telegram — ответим в течение 15 минут.</span>
+            </p>
+            <div class="contacts__actions">
+              <a class="btn" href="https://t.me/Yulia_Kisieva">Записаться в Telegram</a>
+            </div>
+          </div>
+          <div class="contacts__map reveal" role="img" aria-label="Схема проезда: ул. Зураба Магкаева, 75А">
+            <span class="contacts__pin">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11z" fill="#B85C38" stroke="#2E1A0F" stroke-width="1.6"/><circle cx="12" cy="10" r="2.6" fill="#FBF3E8"/></svg>
+            </span>
+            <span class="contacts__map-label">ул. Зураба Магкаева, 75А</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Студия шугаринга Юлия</p>
+      <div class="footer__social">
+        <a href="https://t.me/Yulia_Kisieva">Telegram</a>
+        <a href="tel:+79888351112">+7 (988) 835-11-12</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
