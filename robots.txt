@@ -1,0 +1,6 @@
+# TODO: замените example.com на реальный домен при публикации
+User-agent: *
+Allow: /
+Disallow: /privacy.html
+
+Sitemap: https://example.com/sitemap.xml

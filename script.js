@@ -109,3 +109,16 @@ if (hero && heroVisual && finePointer && !reduceMotion) {
     layers.forEach(({ el }) => { el.style.translate = '0px 0px'; });
   });
 }
+
+// ===== Липкая кнопка «Записаться» на мобильных: появляется, когда герой ушёл из вида =====
+const stickyCta = document.querySelector('.sticky-cta');
+const heroSection = document.getElementById('hero');
+if (stickyCta && heroSection) {
+  const ctaObserver = new IntersectionObserver(
+    ([entry]) => {
+      stickyCta.classList.toggle('sticky-cta--visible', !entry.isIntersecting);
+    },
+    { rootMargin: '-76px 0px 0px 0px' }
+  );
+  ctaObserver.observe(heroSection);
+}
